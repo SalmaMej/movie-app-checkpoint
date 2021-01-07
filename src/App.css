@@ -1,11 +1,38 @@
 .App {
   text-align: center;
+  background-color: rgb(28, 28, 54);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  text-align: center;
+  padding: 10px;
+  margin: -15px;
+  color: rgb(21, 21, 42);
+  color: rgb(255, 217, 0);
+
 }
+
+nav{
+  background-color: rgb(21, 21, 42);
+  margin: -20px;
+  color: rgb(255, 217, 0);
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  display: flex;
+  width: 180px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+ }
+ li:hover{
+   background-color: rgb(51, 51, 90);
+   box-shadow: 3px 3px 5px rgb(0, 0, 0);
+ }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +62,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn{
+  border-radius: 10px;
+  padding: 10px;
+  background-color:rgb(255, 217, 0) ;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
 }

@@ -1,0 +1,18 @@
+.header-container{
+    color: rgb(255, 217, 0);
+    background-color:rgb(21, 21, 42);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
